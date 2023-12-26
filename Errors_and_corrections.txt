@@ -1,0 +1,39 @@
+Error 1:
+
+""" File "src/textsummarizer/utils/common.py", line 2
+    from python-box.exceptions import BoxValueError
+               ^
+SyntaxError: invalid syntax """
+
+Error Handled:
+ """python -m pip install python-box """
+
+Source:
+    chatGPT
+
+----------------------------------------------------------------
+
+Error 2:
+    config/config.yaml File Not found
+
+Error Handled:
+    To many times running unneccessary code that is running "chdir("../")"
+    this made the project to go outside the project and cannot access the config/config.yaml file
+
+source:
+    Downloaded source file from github and comparing with my code and found the reason that it is out
+    of repository.
+
+----------------------------------------------------------------
+
+Error 3:
+    Unable to download file from github URL
+
+Error Handled:
+    Hosted the zip file in AWS S3 and got the link from the
+    and provided as Source URL for downloading the file.
+
+source:
+    Self Analysis and suggested from tuts video.
+
+----------------------------------------------------------------

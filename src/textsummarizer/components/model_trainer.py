@@ -6,6 +6,7 @@ import torch
 from src.textsummarizer.entity import ModelTrainerConfig
 import os
 
+os.environ['PYTORCH_MPS_HIGH_WATERMARK_RATIO'] = '0.0'
 
 class ModelTrainer:
     def __init__(self, config: ModelTrainerConfig):
